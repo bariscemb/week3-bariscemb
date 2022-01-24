@@ -7,12 +7,21 @@ body{
   letter-spacing: 1px;
   background: #000000;
 }
-h1, h2, h3, h4, ul, li, a, p, input, label, button, div, footer{
+h1,  h3, h4, ul, li, a, p, input, label, button, div, footer{
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
   color: rgb(219, 73, 73);
 }
+
+h2{
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(219, 73, 73);
+}
+
 ul{
   list-style-type: none;
 }
@@ -41,44 +50,49 @@ nav li a{
   letter-spacing: 2px;
 }
 .btn{
-  border-radius: 36px;
+  border-radius: 50px;
   background: #f8f8f8;
+  
 }
 form h2{
+  
   font-size: 2.4em;
   font-weight: 900;
   margin-bottom: 40px;
 }
 form{
+  border-radius: 100px;
   width: 360px;
   margin: 0 auto;
-  padding: 30px;
-  box-shadow: 1px 2px 3px rgba(233, 177, 177, 0.1);
-  border-radius: 10px;
-  background: rgb(54, 18, 18);
+  padding: 20px;
+  box-shadow: 1px 2px 3px #342a8fe3;
+  
+  background: rgb(19, 22, 82);
 }
 input{
   padding: 10px 12px;
   border-radius: 4px;
-  border: 1px solid #ddd;
+  border: 1px solid rgb(179, 0, 0);
   font-size: 1em;
   width: 100%;
 }
 label{
   display: block;
-  margin: 20px 0 10px;
+  margin: 30px 0 10px;
 }
 button{
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 15px;
   border-radius: 36px;
-  background: #cfe032;
+  background: #eaebe2;
   border:0;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.8em;
   display: block;
-  padding: 10px 16px;
-  letter-spacing: 2px;
+  padding: 15px 55px;
+  letter-spacing: 4px;
 }
 .error{
   color: #ff0099;
@@ -87,7 +101,11 @@ button{
   font-weight: bold;
 }
 
-.img{
-  max-width: 600px;
-  max-height: 800px;
-}
+
+body {
+  background-image: url(https://pbs.twimg.com/profile_banners/1024755895270498305/1546918995/1500x500);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ }
