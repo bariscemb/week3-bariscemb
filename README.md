@@ -2,7 +2,7 @@ Hello!
 
 This is Gusto Bootcamp typescript project.
 
-I ussed typescript, express, mongoDB , and some other packages for the project.
+I used typescript, express, mongoDB , and some other packages for the project.
 I prepared:
 "authControllers" as controller
 "authMüddleware" as midleware
